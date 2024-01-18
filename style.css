@@ -16,21 +16,27 @@ header{
   padding:5px;
   border-radius: 10px;
 }
+figure{
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
 #titulo,a{
   border:#992020 solid;
   display: flex;
   align-items: center;
-  background-color: #CCBBBB;
+  background-color: rgba(3, 252, 53, 0.5);
 }
 ol{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #CCBBBB;
+  
   height: 100px;
 }
 main{
-  display: flex;
+  display: grid;
+  justify-content: center;
   flex-wrap: wrap;
   background-color:  #206620;
   height: 500px;

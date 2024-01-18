@@ -28,3 +28,12 @@ notOrdenatedChild = document.createElement('li')
 notOrdenatedChild.innerText ='Mais intereção'
 notOrdenated.appendChild(notOrdenatedChild)
 console.log(notOrdenatedChild)
+let elementoPai = document.querySelector('main')
+elementoFilho = document.createElement('div')
+elementoFilho.innerHTML = `
+<div class="post-titulo">
+<h2>Java Script</h2>
+<p class="post-texto">Java Script é uma linguagem de programação!
+</p>
+</div>`
+elementoPai.appendChild(elementoFilho)
