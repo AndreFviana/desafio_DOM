@@ -2,10 +2,12 @@
   box-sizing: content-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: darkslategrey;
+  
 }
 
 body {
   background-color: honeydew;
+  text-align: center;
 }
 
 #carrinho {
@@ -48,4 +50,18 @@ input::-webkit-inner-spin-button {
 
 #subtotal {
   font-size: 1.2rem;
+}
+.modo-dark{
+  display: flex;
+  justify-content: end;
+
+ 
+  background-color: black;
+  padding: 5px;
+  color:white;
+}
+.dark{
+  position: relative;
+  width:100%;
+  height: 60px;
 }

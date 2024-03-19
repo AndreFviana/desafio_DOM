@@ -61,12 +61,27 @@ inputEmail.style.backgroundColor ="red"
 inputEmail.addEventListener("blur", (e)=> {
   e.target.style.backgroundColor =""
   })
+/*
+formulario.addEventListener("submit", ()=> {
+alert("Eviado com sucesso!")
+})  */
 
   //isso aqui muda o background quando a pessoa é menor ou maior de idade
 inputIdade.addEventListener("change", ()=>{
   if(inputIdade.value >= 18){
     inputIdade.style.backgroundColor = "green"
-  }else {
+  } else {
     inputIdade.style.backgroundColor = "red"
+    alert("Menor de idade!");
   }
-})  
+})
+
+let modoDark = document.getElementsByClassName('.modo-dark')
+let dark = document.querySelector('dark')
+
+function mudarBackground (){
+  dark.style.backgroundColor = 'white';
+}
+modoDark.addEventListener("focus", mudarBackground)
+
+inputIdade.classList.add('item-carrinho ')  
