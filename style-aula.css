@@ -55,7 +55,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: end;
 
- 
+  cursor:pointer;
   background-color: black;
   padding: 5px;
   color:white;
@@ -64,4 +64,5 @@ input::-webkit-inner-spin-button {
   position: relative;
   width:100%;
   height: 60px;
+  
 }
